@@ -1,6 +1,6 @@
 {
   "name": "@rocketcamp/material-formbuilder",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "A form builder component library for Material UI",
   "license": "MIT",
   "keywords": [
@@ -8,6 +8,14 @@
     "react",
     "material-ui"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RocketCamp/material-formbuilder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RocketCamp/material-formbuilder/issues"
+  },
+  "homepage": "https://rocketcamp.org/projects/",
   "type": "module",
   "main": "dist/material-formbuilder.cjs.js",
   "module": "dist/material-formbuilder.esm.js",
