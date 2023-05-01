@@ -1,0 +1,31 @@
+{
+  "name": "@rocketcamp/material-formbuilder",
+  "version": "0.0.5",
+  "description": "A form builder component library for Material UI",
+  "license": "MIT",
+  "keywords": [
+    "form builder",
+    "react",
+    "material-ui"
+  ],
+  "type": "module",
+  "main": "dist/material-formbuilder.cjs.js",
+  "module": "dist/material-formbuilder.esm.js",
+  "peerDependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.0",
+    "vite": "^2.0.0"
+  }
+}
