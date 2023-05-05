@@ -10,6 +10,8 @@ npm install --save @rocketcamp/material-formbuilder
 
 ## Usage
 
+![alt text](https://brief.kz/usage.jpg)
+
 ```jsx
 import React from "react";
 import { FormBuilder } from "@rocketcamp/material-formbuilder";
