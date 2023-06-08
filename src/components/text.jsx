@@ -2,7 +2,7 @@ import React from "react";
 
 import { Box, TextField } from "@mui/material";
 
-function FormBuilderString(props) {
+function FormBuilderText(props) {
     //const [value, setValue] = useState(props.value || "");
     // useEffect(() => {
     //     setValue(props.value || "");
@@ -18,12 +18,17 @@ function FormBuilderString(props) {
     builderProps.InputProps = {};
     builderProps.InputProps.readOnly = props.readOnly || false;
     builderProps.helperText = props.helper;
+
     if (props.error) {
         builderProps.error = true;
         builderProps.helperText = props.error;
     }
     if (props.type === "email") {
         builderProps.InputProps.type = "email";
+    }
+    if(props.rows){
+        builderProps.multiline = true;
+        builderProps.rows = props.rows;
     }
 
     // builderProps.onChange = (event) => {
@@ -36,4 +41,4 @@ function FormBuilderString(props) {
         </Box>
     );
 }
-export default FormBuilderString;
+export default FormBuilderText;

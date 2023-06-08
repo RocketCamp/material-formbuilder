@@ -2,7 +2,7 @@ import React from "react";
 
 import { Box, Button, Grid } from "@mui/material";
 
-import FormBuilderString from "./string";
+import FormBuilderText from "./text";
 import FormBuilderPassword from "./password";
 import FormBuilderCheckbox from "./checkbox";
 import FormBuilderSelect from "./select";
@@ -26,10 +26,10 @@ function FormBuilder(props) {
                             xs={12}
                             sm={12 * (list.width || 1)}
                         >
-                            {(list.type === "string" ||
+                            {(list.type === "text" ||
                                 list.type === "email" ||
                                 list.type === "integer" ||
-                                !list.type) && <FormBuilderString {...list} />}
+                                !list.type) && <FormBuilderText {...list} />}
                             {list.type === "password" && (
                                 <FormBuilderPassword {...list} />
                             )}
